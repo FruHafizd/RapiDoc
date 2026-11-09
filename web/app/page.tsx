@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CtaButton from "@/components/CtaButton";
 
 const steps = [
@@ -37,7 +38,12 @@ export default function Home() {
         </p>
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <CtaButton />
-          <span className="text-sm text-muted">Upload Dokumen (segera hadir)</span>
+          <Link
+            href="/upload"
+            className="inline-block rounded-md border border-accent px-6 py-3 font-medium text-accent transition-colors hover:bg-accent hover:text-accent-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            Upload Dokumen
+          </Link>
         </div>
       </section>
 
