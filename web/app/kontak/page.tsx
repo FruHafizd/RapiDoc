@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Kontak - RapiDoc",
+  title: "Kontak",
   description: "Hubungi RapiDoc untuk saran, laporan masalah, atau pertanyaan.",
 };
 

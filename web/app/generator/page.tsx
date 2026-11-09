@@ -1,6 +1,6 @@
 import GeneratorForm from "@/components/GeneratorForm";
 
-export const metadata = { title: "Generator Template - RapiDoc" };
+export const metadata = { title: "Generator Template" };
 
 export default function GeneratorPage() {
   return (

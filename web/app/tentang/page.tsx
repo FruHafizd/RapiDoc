@@ -1,7 +1,7 @@
 import CtaButton from "@/components/CtaButton";
 
 export const metadata = {
-  title: "Tentang RapiDoc",
+  title: "Tentang",
   description: "RapiDoc dibuat agar tidak perlu lagi menyusun format makalah dari awal.",
 };
 
