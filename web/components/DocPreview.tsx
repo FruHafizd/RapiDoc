@@ -22,9 +22,9 @@ function logoDataUrl(logo: DocConfig["cover"]["logo"]): string | undefined {
   return `data:${logo.type === "png" ? "image/png" : "image/jpeg"};base64,${btoa(binary)}`;
 }
 
-function P({ children, bold, before = 0, style }: { children: ReactNode; bold?: boolean; before?: number; style?: CSSProperties }) {
+function P({ children, bold, before = 0 }: { children: ReactNode; bold?: boolean; before?: number }) {
   return (
-    <p style={{ textAlign: "center", fontWeight: bold ? 700 : 400, margin: `${pt(before)} 0 ${pt(12)}`, ...style }}>
+    <p style={{ textAlign: "center", fontWeight: bold ? 700 : 400, margin: `${pt(before)} 0 ${pt(12)}` }}>
       {children}
     </p>
   );
@@ -105,7 +105,7 @@ function PageContent({ page, config, logoUrl }: { page: PreviewPage; config: Doc
     case "chapter":
       return (
         <>
-          <P bold style={{ marginBottom: pt(12) }}>
+          <P bold>
             {chapterLabel(page.index)}
             <br />
             {page.chapter.title.toUpperCase()}

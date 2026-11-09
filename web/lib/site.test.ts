@@ -28,7 +28,7 @@ describe("sitemap", () => {
     const urls = sitemap().map((s) => s.url);
     expect(urls).toHaveLength(ROUTES.length);
     expect(urls).toContain(`${getSiteUrl(process.env)}/`);
-    for (const r of ["/generator", "/tentang", "/kontak"]) {
+    for (const r of ["/generator", "/upload", "/tentang", "/kontak"]) {
       expect(urls).toContain(`${getSiteUrl(process.env)}${r}`);
     }
     expect(urls.every((u) => u.startsWith("http"))).toBe(true);

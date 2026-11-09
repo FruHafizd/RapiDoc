@@ -30,9 +30,10 @@ export default function TentangPage() {
         <li>Fokus pada format yang benar, bukan fitur yang berlebihan.</li>
       </ul>
 
-      <h2 className="mt-10 font-serif text-2xl font-semibold">Rencana berikutnya</h2>
+      <h2 className="mt-10 font-serif text-2xl font-semibold">Dari dokumen Anda sendiri</h2>
       <p className="mt-3 text-muted">
-        Segera hadir: unggah dokumen Anda sendiri agar RapiDoc mendeteksi formatnya, lalu menyimpannya sebagai template.
+        Sudah punya makalah dengan format yang benar? Unggah lewat halaman Upload Dokumen, dan RapiDoc mendeteksi
+        formatnya untuk dijadikan template.
       </p>
 
       <div className="mt-12">

@@ -1,7 +1,7 @@
 export const SITE_NAME = "RapiDoc";
 
 /** Rute publik yang masuk ke sitemap. */
-export const ROUTES = ["/", "/generator", "/tentang", "/kontak"];
+export const ROUTES = ["/", "/generator", "/upload", "/tentang", "/kontak"];
 
 /**
  * Alamat situs untuk URL absolut (sitemap, Open Graph). Domain belum ditentukan,

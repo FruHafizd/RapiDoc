@@ -4,6 +4,7 @@ import CtaButton from "./CtaButton";
 
 const nav = [
   { href: "/generator", label: "Generator" },
+  { href: "/upload", label: "Upload Dokumen" },
   { href: "/tentang", label: "Tentang" },
   { href: "/kontak", label: "Kontak" },
 ];
